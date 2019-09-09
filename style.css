@@ -1,0 +1,444 @@
+
+/* Main content */
+.main {
+    margin-top: 9%; /* Add a top margin to avoid content overlay */
+    font-family:centaur, sans-serif;
+    font-size: 4rem;
+    font-weight: bold;
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+    display: block;
+    text-align: center;
+}
+
+.caixa {
+    width: 40rem;
+    margin: 5rem;
+    float: left;
+
+}
+
+.caixa a {
+    font-family:baskerville old face,sans-serif;
+    font-size:1.5rem;
+    font-weight: bold;
+    display: block;
+    text-decoration: none;
+    color:#19611A;
+    margin-bottom: 1rem;
+    margin-right:1rem;
+    width:12rem;
+}
+
+.caixa a:hover{
+    text-decoration: none;
+    background: none;
+    color: #5A78FA;
+}
+
+.caixa p {
+    width: 30rem;
+    text-align: justify;
+    font-family:badoni,sans-serif;
+    line-height: 1.5rem;
+    float: left;
+}
+
+.caixa img {
+    float: right;
+    width: 20%;
+}
+
+
+.txtesquerda1 {
+    width: 40rem;
+    margin: 8rem 0 0 10%;
+    margin-left: 1.2rem;
+    float: left;
+    padding: 0.6rem;
+
+}
+
+
+.txtesquerda1 a {
+    font-family:baskerville old face,sans-serif;
+    font-weight: bold;
+    font-size:1.5rem;
+    font-weight: bold;
+    display: block;
+    text-decoration: none;
+    color:#19611A;
+    margin-bottom: 0.5rem;
+    width:10rem;
+}
+
+.txtesquerda1 a:hover{
+    text-decoration: none;
+    background: none;
+    color: #5A78FA;
+
+}
+
+.txtesquerda1 p {
+    width: 30rem;
+    text-align: justify;
+    font-family:badoni,sans-serif;
+    float: left;
+    line-height: 1.5rem;
+    margin-bottom: 0rem;
+}
+.txtesquerda1 b {
+    margin-bottom: 7rem;
+    width: 30rem;
+    text-align: justify;
+    font: 1.1rem Arial;
+    float: left;
+}
+.txtesquerda1 h1 {
+    margin-bottom:4rem;
+    margin top:1rem;
+    width: 100%;
+    left: 2rem;
+    text-align: justify;
+    font: 20rem Arial;
+    float: left;
+}
+.txtesquerda1 img {
+    float: right;
+    width: 20%;
+}
+
+
+.fixedbar {
+
+    overflow: hidden;
+
+    background-color: #28992A;
+
+    position: fixed; 
+
+    top: 0; 
+
+    width: 100%; 
+
+    height: 5rem;
+
+}
+
+
+
+.fixedbar a {
+
+    float: left;
+
+    display: block;
+
+    color: #f2f2f2;
+
+    text-align: center;
+
+    padding: 1rem 1rem;
+
+    text-decoration: none;
+
+    margin: 0.9rem 0rem 0rem 0.9rem;
+
+    font-family: bookman old style,sans-serif;
+
+    font-size: 1.5rem;
+
+    border-radius: 0.8rem;
+
+}
+
+.fixedbar b {
+
+    float: left;
+
+    background:#034F00;
+
+    color:#ffffff;
+
+
+    text-align: center;
+
+    padding: 1rem 1rem;
+
+    text-decoration: none;
+
+    margin: 0.8rem 0rem 0rem 0.8rem;
+
+    font-family:bookman old style, sans-serif;
+    font-size:1.5rem;
+
+    border-radius: 0.8rem;
+
+}
+
+.fixedbar h1 {
+
+    font-family:Ink Free,sans-serif;
+
+    font-size:3rem;
+
+    display: block;
+
+    float: left;
+
+    margin: 1.5rem 0.8rem 0rem 1.5rem;
+
+    color: #ffffff;
+
+}
+
+
+.fixedbar a:hover {
+
+    text-decoration: none;
+
+    background:#034F00;
+
+    color:#ffffff;
+
+}
+
+.fixedbar b:hover {
+
+    text-decoration: none;
+
+    background:#28992A;
+
+    color:#ffffff;
+
+}
+
+
+
+
+.fixedbottombar {
+
+    position: absolute;
+
+    overflow-y: auto;
+
+    overflow: hidden;
+
+    background-color: #28992A;
+
+    position: fixed; 
+
+    bottom: 0;
+
+    width: 100%; 
+
+    height: 5rem;
+
+}
+
+
+
+.fixedbottombar li {
+
+    margin: 0.7rem 0rem 0rem 0.7rem;
+
+    display: block;
+
+    color: #f2f2f2;
+
+    text-decoration: none;
+
+    font: 1.1rem Arial;
+
+}
+
+
+
+
+
+.mainproj {
+
+    position: relative;
+
+    margin-top: 12%; 
+
+    font-family:Centaur, sans-serif;
+    font-size:4rem;
+
+    font-weight: bold;
+
+    width: 50%;
+
+    display: block;
+
+    text-align: left;
+
+}
+.subtitulo {
+
+
+    margin-top:0;
+    margin-left:20rem;
+    margin-right:5.5rem;
+    margin-bottom:0rem;
+
+    float: left;
+    font-family:baskerville old face,sans-serif;
+    padding: 0.2rem;
+
+    font-size: 1.5rem;
+
+
+}
+
+
+
+
+
+
+
+.txtfixo{   
+
+    position: absolute;
+
+    overflow-y: auto;
+
+    overflow: hidden;
+
+    position: fixed; 
+
+    top: 8rem;
+
+    right:1.5rem;
+
+    width: 30%; 
+
+    height: 100%;
+
+    left-margin: 3rem;
+
+
+
+}
+
+.txtfixo a {
+
+    float: left;
+
+    display: block;
+
+    color: black;
+
+    text-align: center;
+
+    padding: 0.9rem 1rem;
+
+    text-decoration: none;
+
+    margin: 0.9rem 0rem 0rem 0.9rem;
+
+    font-family:Magneto;
+    font-size:1.3rem;
+    border-radius: 0.9rem;
+
+}
+
+.txtfixo b {
+
+     float: left;
+
+    display: block;
+
+    color: black;
+
+    text-align: center;
+
+
+    font-weight: bold;
+
+    padding: 0.9rem 2.4rem;
+
+    text-decoration: none;
+
+    margin: 0.9rem 0rem 0rem 0.9rem;
+
+    font-family:Centaur;
+
+    border-radius: 0.9rem;
+
+    font-size: 1.5rem;
+
+}
+
+.txtfixo img {
+
+    position: relative;
+    left :2rem;
+
+    width: 10rem;
+
+    left-margin: 6rem;
+
+}  
+
+@media (max-width: 450px) {
+    .caixa {
+        width: 100%;
+        margin-right: 1rem;
+        margin-left: 1rem;
+        margin-top: 4rem;
+        margin-bottom:4rem;
+        justify-content: center;
+    }
+
+    .caixa a:hover{
+    text-decoration: none;
+    background: none;
+    color: #5A78FA;
+    }
+
+    .caixa p {
+    width: 90%;
+    text-align: justify;
+    font-family:badoni,sans-serif;
+    line-height: 1.5rem;
+
+    }
+
+    .caixa img {
+    display: none;
+    }
+
+    .fixedbar a {
+        display: none;
+    }
+    .fixedbottombar {
+        display: none;
+    }
+
+    .main h1 {
+        margin-top: 8rem;
+        font: 2rem Arial;
+    }
+    .txtesquerda1 img {
+        display: none;
+    }    
+    .mainproj {
+
+    position: relative;
+
+    margin-top: 30%; 
+
+    font-family:Centaur, sans-serif;
+    font-size:3rem;
+
+    font-weight: bold;
+
+    width: 50%;
+
+    display: block;
+
+    text-align: left;
+
+}
+}
